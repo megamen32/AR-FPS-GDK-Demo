@@ -7,7 +7,7 @@ namespace Fps
 {
     public class VisibilityAndCollision : MonoBehaviour
     {
-        [Require] private HealthComponentReader health;
+        [Require] [HideInInspector] internal HealthComponentReader health;
 
         private bool isVisible = true;
 

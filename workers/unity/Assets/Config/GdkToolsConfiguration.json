@@ -1,5 +1,7 @@
 {
-    "SchemaSourceDirs": [],
+    "SchemaSourceDirs": [
+        "..\\..\\schema"
+    ],
     "CodegenOutputDir": "Assets/Generated/Source",
     "DescriptorOutputDir": "../../build/assembly/schema",
     "DevAuthTokenDir": "Resources",
