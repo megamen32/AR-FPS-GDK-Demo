@@ -1,8 +1,8 @@
 {
   "dependencies": {
-    "com.unity.ide.rider": "1.0.8",
+    "com.unity.ide.rider": "1.1.0",
     "com.unity.package-manager-ui": "2.2.0",
-    "com.unity.postprocessing": "2.1.4",
+    "com.unity.postprocessing": "2.1.7",
     "com.unity.ugui": "1.0.0",
     "io.improbable.gdk.buildsystem": "0.2.9",
     "io.improbable.gdk.core": "0.2.9",
