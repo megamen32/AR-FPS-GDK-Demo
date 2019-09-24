@@ -1,0 +1,43 @@
+Basic COCOMO, using software project class: Semi-detached
+Total lines of code  = 23152 (23.152 kLOC)
+Effort Applied   (E) = 101.265 [person-months] (3.0 * kLOC ^ 1.12)
+Development Time (D) =  12.585 [months] (2.5 * E ^ 0.35)
+People Required  (P) =   8.047 [number of] (E / D)
+
+/Temp/gradleOut/src/main/res/values/styles.xml: 12 LOC
+/Temp/gradleOut/src/main/res/values/strings.xml: 5 LOC
+/Temp/gradleOut/src/main/res/values-v21/styles.xml: 5 LOC
+/Temp/gradleOut/src/main/res/mipmap-anydpi-v26/app_icon.xml: 5 LOC
+/Temp/gradleOut/src/main/res/mipmap-anydpi-v26/app_icon_round.xml: 5 LOC
+/Temp/gradleOut/src/main/assets/bin/Data/platform_native_link.xml: 11 LOC
+/Temp/gradleOut/src/main/AndroidManifest.xml: 22 LOC
+/Temp/gradleOut/build/reports/lint-results-release-fatal.xml: 3 LOC
+/Temp/gradleOut/build/reports/lint-results-release-fatal.html: 198 LOC
+/Temp/gradleOut/build/generated/source/buildConfig/release/com/improbable/gdk/starterproject/BuildConfig.java: 12 LOC
+/Temp/gradleOut/build/generated/not_namespaced_r_class_sources/release/processReleaseResources/r/com/improbable/gdk/starterproject/R.java: 27 LOC
+/Temp/gradleOut/build/intermediates/lint-cache/maven.google/com/android/tools/build/group-index.xml: 18 LOC
+/Temp/gradleOut/build/intermediates/lint-cache/maven.google/master-index.xml: 134 LOC
+/Temp/gradleOut/build/intermediates/lint-cache/sdk-registry.xml/sdk-registry.xml: 142 LOC
+/Temp/gradleOut/build/intermediates/incremental/mergeReleaseAssets/merger.xml: 2 LOC
+/Temp/gradleOut/build/intermediates/incremental/mergeReleaseShaders/merger.xml: 2 LOC
+/Temp/gradleOut/build/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml: 14 LOC
+/Temp/gradleOut/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-v21/values-v21.xml: 5 LOC
+/Temp/gradleOut/build/intermediates/incremental/mergeReleaseResources/merger.xml: 9 LOC
+/Temp/gradleOut/build/intermediates/incremental/mergeReleaseJniLibFolders/merger.xml: 2 LOC
+/Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/platform_native_link.xml: 11 LOC
+/Temp/gradleOut/build/intermediates/bundle_manifest/release/processReleaseManifest/bundle-manifest/AndroidManifest.xml: 59 LOC
+/Temp/gradleOut/build/intermediates/merged_manifests/release/AndroidManifest.xml: 59 LOC
+/Temp/gradleOut/build/intermediates/instant_app_manifest/release/AndroidManifest.xml: 60 LOC
+/build/worker/UnityClient@Windows/MonoBleedingEdge/etc/mono/mconfig/config.xml: 555 LOC
+/build/worker/UnityGameLogic@Linux/UnityGameLogic@Linux_Data/MonoBleedingEdge/etc/mono/mconfig/config.xml: 555 LOC
+/build/worker/UnityGameLogic@Windows/MonoBleedingEdge/etc/mono/mconfig/config.xml: 555 LOC
+/build/worker/SimulatedPlayerCoordinator@Linux/SimulatedPlayerCoordinator@Linux_Data/MonoBleedingEdge/etc/mono/mconfig/config.xml: 555 LOC
+/build/worker/SimulatedPlayerCoordinator@Windows/MonoBleedingEdge/etc/mono/mconfig/config.xml: 555 LOC
+/Assets/link.xml: 15 LOC
+/Library/PackageCache/com.unity.burst@1.1.2/Unity.Burst.Unsafe.xml: 305 LOC
+/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.xml: 18027 LOC
+/Library/PackageCache/io.improbable.worker.sdk@14.0.2/Plugins/Improbable/Sdk/Common/Improbable.Worker.CInterop.xml: 604 LOC
+/Library/PackageCache/io.improbable.worker.sdk.mobile@14.0.2/Plugins/Improbable/Sdk/iOS/Improbable.Worker.CInteropStatic.xml: 604 LOC
+
+Excluded files in:
+	/.idea/

@@ -15,14 +15,17 @@
         "Improbable.Gdk.StandardTypes",
         "Unity.Entities",
         "Unity.Entities.Hybrid",
-        "Unity.Postprocessing.Runtime"
+        "Unity.Postprocessing.Runtime",
+        "Unity.XR.ARCore",
+        "Unity.XR.ARFoundation",
+        "Unity.XR.ARSubsystems"
     ],
-    "optionalUnityReferences": [],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
     "precompiledReferences": [],
     "autoReferenced": true,
-    "defineConstraints": []
+    "defineConstraints": [],
+    "versionDefines": []
 }

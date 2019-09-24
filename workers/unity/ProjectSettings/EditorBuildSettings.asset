@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Fps/Scenes/FPS-MobileClient.unity
+    guid: 92916326a1ceade4a92343dfbc7d64d7
+  - enabled: 1
     path: Assets/Fps/Scenes/FPS-Client.unity
     guid: f25e339cbf804e542a03aed351b5488c
   - enabled: 1
@@ -14,4 +17,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Fps/Scenes/FPS-SimulatedPlayerCoordinator.unity
     guid: 2cc9e8eb323f45b4c8dad1fb41dc2831
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.xr.arcore.PlayerSettings: {fileID: 11400000, guid: cc696f874e6fed04b9fd6848087030e1,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: d90458f95ba674a4f90fee2633cd080d,
+      type: 2}

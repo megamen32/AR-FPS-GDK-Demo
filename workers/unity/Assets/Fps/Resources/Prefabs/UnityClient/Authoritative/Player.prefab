@@ -584,6 +584,11 @@ PrefabInstance:
       propertyPath: gunSocket
       value: 
       objectReference: {fileID: 114801285074366292}
+    - target: {fileID: 6108130638274169511, guid: 99c1c836e4262284d9b458f03442a4f6,
+        type: 3}
+      propertyPath: applyRecoil
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7451537192968994047, guid: 99c1c836e4262284d9b458f03442a4f6,
         type: 3}
       propertyPath: m_Controller
