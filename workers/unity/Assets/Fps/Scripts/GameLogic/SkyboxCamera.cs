@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
+using Object = System.Object;
 
 namespace Fps
 {
@@ -6,6 +8,7 @@ namespace Fps
     public class SkyboxCamera : MonoBehaviour
     {
         private Camera myCamera;
+        [SerializeField] Boolean synthRotation;
 
         private void Awake()
         {
@@ -21,7 +24,11 @@ namespace Fps
                 return;
             }
 
-            myCamera.transform.rotation = playerCamera.transform.rotation;
+            if (synthRotation)
+            {
+                myCamera.transform.rotation = playerCamera.transform.rotation;
+            }
+
             myCamera.fieldOfView = playerCamera.fieldOfView;
         }
     }

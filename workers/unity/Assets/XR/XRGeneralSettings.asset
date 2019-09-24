@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4c3631f5e58749a59194e0cf6baf6d5, type: 3}
   m_Name: Android Loaders
   m_EditorClassIdentifier: 
-  m_InitializationComplete: 0
   m_RequiresSettingsUpdate: 1
   m_AutomaticLoading: 0
   m_AutomaticRunning: 0
-  m_Loaders: []
+  m_Loaders:
+  - {fileID: 11400000, guid: c6d15919a45a3f8449ffd3e8d6c50eec, type: 2}
 --- !u!114 &-6327422526121750560
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31,8 +31,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_LoaderManagerInstance: {fileID: -1472796283402729490}
   m_InitManagerOnStart: 1
-  m_XRManager: {fileID: 0}
-  m_IsPlaying: 0
 --- !u!114 &-4821193783948101133
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45,7 +43,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4c3631f5e58749a59194e0cf6baf6d5, type: 3}
   m_Name: Lumin Loaders
   m_EditorClassIdentifier: 
-  m_InitializationComplete: 0
   m_RequiresSettingsUpdate: 1
   m_AutomaticLoading: 0
   m_AutomaticRunning: 0
@@ -64,8 +61,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_LoaderManagerInstance: {fileID: -9165787923704499471}
   m_InitManagerOnStart: 1
-  m_XRManager: {fileID: 0}
-  m_IsPlaying: 0
 --- !u!114 &-2023268918989905573
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -79,9 +74,7 @@ MonoBehaviour:
   m_Name: Lumin Settings
   m_EditorClassIdentifier: 
   m_LoaderManagerInstance: {fileID: -4821193783948101133}
-  m_InitManagerOnStart: 1
-  m_XRManager: {fileID: 0}
-  m_IsPlaying: 0
+  m_InitManagerOnStart: 0
 --- !u!114 &-1472796283402729490
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -94,11 +87,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4c3631f5e58749a59194e0cf6baf6d5, type: 3}
   m_Name: Standalone Loaders
   m_EditorClassIdentifier: 
-  m_InitializationComplete: 0
   m_RequiresSettingsUpdate: 1
   m_AutomaticLoading: 0
   m_AutomaticRunning: 0
-  m_Loaders: []
+  m_Loaders:
+  - {fileID: 11400000, guid: c6d15919a45a3f8449ffd3e8d6c50eec, type: 2}
+  - {fileID: 11400000, guid: d76884d0b43e3824ba2c005634656873, type: 2}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -1,13 +1,15 @@
 {
   "dependencies": {
+    "com.candycoded.arfoundation-components": "https://github.com/CandyCoded/ARFoundation-Components.git#v2.1.0",
+    "com.candycoded.candycoded": "https://github.com/CandyCoded/CandyCoded.git#v2.3.0",
+    "com.unity.adaptiveperformance.samsung.android": "1.0.0",
     "com.unity.ide.rider": "1.1.1",
     "com.unity.mobile.android-logcat": "1.0.0",
     "com.unity.package-manager-ui": "2.2.0",
     "com.unity.postprocessing": "2.1.7",
     "com.unity.ugui": "1.0.0",
-    "com.unity.xr.arcore": "2.0.2",
-    "com.unity.xr.arfoundation": "2.0.2",
-    "com.unity.xr.legacyinputhelpers": "2.0.6",
+    "com.unity.xr.arcore": "3.0.0-preview.2",
+    "com.unity.xr.arfoundation": "3.0.0-preview.2",
     "io.improbable.gdk.buildsystem": "0.2.9",
     "io.improbable.gdk.core": "0.2.9",
     "io.improbable.gdk.debug": "0.2.9",
@@ -38,7 +40,6 @@
     "com.unity.modules.unityanalytics": "1.0.0",
     "com.unity.modules.unitywebrequest": "1.0.0",
     "com.unity.modules.vr": "1.0.0",
-    "com.unity.modules.wind": "1.0.0",
     "com.unity.modules.xr": "1.0.0"
   },
   "registry": "https://packages.unity.com",
@@ -49,6 +50,23 @@
       "scopes": [
         "io.improbable"
       ]
+    },
+    {
+      "name": "candycoded",
+      "url": "https://registry.npmjs.com",
+      "scopes": [
+        "xyz.candycoded"
+      ]
     }
-  ]
+  ],
+  "lock": {
+    "com.candycoded.arfoundation-components": {
+      "hash": "b335d68a936ac89a56b9c42aedddc43534fe87e5",
+      "revision": "v2.1.0"
+    },
+    "com.candycoded.candycoded": {
+      "hash": "88817c9343b182df6f217cc754ea29d1ff0cae51",
+      "revision": "v2.3.0"
+    }
+  }
 }

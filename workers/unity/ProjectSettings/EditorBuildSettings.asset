@@ -18,7 +18,11 @@ EditorBuildSettings:
     path: Assets/Fps/Scenes/FPS-SimulatedPlayerCoordinator.unity
     guid: 2cc9e8eb323f45b4c8dad1fb41dc2831
   m_configObjects:
+    Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: e9657c20aad74214bba7c76bcc739037,
+      type: 2}
     com.unity.xr.arcore.PlayerSettings: {fileID: 11400000, guid: cc696f874e6fed04b9fd6848087030e1,
+      type: 2}
+    com.unity.xr.management.arcore_loader: {fileID: 11400000, guid: 6bb6ff14810e889418233dcf6f6a7953,
       type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: d90458f95ba674a4f90fee2633cd080d,
       type: 2}
